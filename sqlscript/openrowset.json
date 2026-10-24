@@ -1,0 +1,17 @@
+{
+	"name": "openrowset",
+	"properties": {
+		"content": {
+			"query": "\n--- CREATE CREDENTIAL\nCREATE DATABASE SCOPED CREDENTIAL ketakicreds\nWITH \n    IDENTITY = 'Managed Identity'\n\n--- CREATE EXT DATA SOURCE \nCREATE EXTERNAL DATA SOURCE raw_ext_source \nWITH \n(\n  LOCATION = 'https://ketakidatalake.dfs.core.windows.net/raw',\n  CREDENTIAL = ketakicreds    \n)",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "ketakiserverless",
+				"poolName": "Built-in"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}

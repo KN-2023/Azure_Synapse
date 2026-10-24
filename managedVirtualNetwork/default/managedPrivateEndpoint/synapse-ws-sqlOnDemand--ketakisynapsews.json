@@ -1,0 +1,10 @@
+{
+	"name": "synapse-ws-sqlOnDemand--ketakisynapsews",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/1194812e-1f96-4b7f-8c7c-c640db44ffc9/resourceGroups/RG-Synapse/providers/Microsoft.Synapse/workspaces/ketakisynapsews",
+		"groupId": "sqlOnDemand",
+		"fqdns": [
+			"ketakisynapsews-ondemand.a22b950d-a9ef-4625-9afb-d3b5bf523af6.sql.azuresynapse.net"
+		]
+	}
+}
